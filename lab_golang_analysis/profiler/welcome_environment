@@ -1,0 +1,13 @@
+
+
+		
+		profiler
+
+	great		detect_environment										go_program
+
+
+	detect_os&arch detect_go_version  dectect_goroot dectect_cpu  detect_maxprocs 
+		
+	  			fmt	os
+
+			

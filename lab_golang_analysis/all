@@ -1,0 +1,13 @@
+
+
+	Port			Go		Procs
+
+	Architecture: arm	Version: 1.14	used:
+	OS: darwin		Root:		available:
+	Support: <= 1.14	
+
+								Runtime
+
+	runtime_messages	os	concurrency	  heap	   stack   internal_timer    GC	    allocator	keepAlive
+				
+	

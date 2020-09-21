@@ -1,0 +1,9 @@
+
+
+	 	  			stack
+
+	        stacks				min_stack_size	  max_stack_size
+
+	id	goroutine    size		   default	      default
+
+						     8KB       1G(64bit) 250MB(32bit)
