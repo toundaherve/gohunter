@@ -1,0 +1,6 @@
+
+					[ | | | | | ]
+
+	goroutine		     ==================				value						goroutine
+
+			checkType  checkDirection  blockChannel	 addToBuff  removeFromBuf checkIfFull				synchronize

@@ -8,7 +8,8 @@ import (
 
 func main() {
 	greating()
-	detectEnvironment()
+	section("Environment", detectEnvironment)
+	section("OS signals", reportSignals)
 }
 
 func greating() {
@@ -16,9 +17,6 @@ func greating() {
 }
 
 func detectEnvironment() {
-	fmt.Println("Environment")
-	fmt.Println("-------------------------------")
-
 	environment := make(map[string]string)
 
 	environment["Operating system"] = runtime.GOOS
@@ -31,4 +29,13 @@ func detectEnvironment() {
 	for env, value := range environment {
 		fmt.Printf("%v : %v\n", env, value)
 	}
+}
+
+type fn func()
+
+func section(title string, fn fn) {
+	fmt.Println(title)
+	fmt.Println("-------------------------------")
+	fn()
+	fmt.Print("\n")
 }

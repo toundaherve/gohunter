@@ -1,0 +1,21 @@
+		         				   UNIX		
+
+
+				  		      incoming_signals
+
+						        synchronous		     					     asynchronous 
+kill, os.Process.Kill	     				(execution)						       (kernel , other programs)
+
+					  exit     exit_w_stack_dum    job_control   no_action
+SIGKILL	SIGSTOP													         SIGHUP SIGINT SIGQUIT	
+														   	    (CTRL-C)  (CTRL-\) 
+				      		
+ 				
+
+							   go_program
+
+					signals		  default_behaviours	   panic			
+			channel		
+			[buffer]		
+
+handler				        Notify	
